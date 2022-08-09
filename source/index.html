@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Sedona</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="page__body">
-  <header class="main-header">
+  <header class="main-header block">
     <a class="main-header__logo">
       <img class="main-header__logo-image" src="img/logo.png" width="185" height="96"
            alt="Логотип Sedona.">
@@ -25,23 +26,23 @@
       <div class="main-nav__wrapper">
         <ul class="main-nav__list">
           <li class="main-nav__list-item">
-            <a href="#">Главная</a>
+            <a href="index.html">Главная</a>
           </li>
           <li class="main-nav__list-item">
-            <a href="#">ФОТО И ВИДЕО</a>
+            <a href="catalog.html">ФОТО И ВИДЕО</a>
           </li>
           <li class="main-nav__list-item">
-            <a href="#">Форма отзыва</a>
+            <a href="form.html">Форма отзыва</a>
           </li>
           <li class="main-nav__list-item">
-            <a href="#">HTML ACADEMY</a>
+            <a href="https://htmlacademy.ru/">HTML ACADEMY</a>
           </li>
         </ul>
       </div>
     </nav>
     <div class="main-header__header-bottom">
       <h1 class="visually-hidden">Город Седона</h1>
-      <img class="header-bottom__img-sedona" src="img/welcome.png" width="282" height="214" alt="Добро пожаловать в Седону."/>
+      <img class="header-bottom__img-sedona" src="img/welcom-tablet-decktop.svg" width="461" height="350" alt="Добро пожаловать в Седону."/>
     </div>
   </header>
   <main class="main-container">
@@ -70,7 +71,7 @@
                   </p>
                 </div>
           <div class="advantage__box-right">
-            <img class="advantage__landscape-img" src="images/photo-1.jpg" alt="пейзаж города." width="800" height="384" />
+            <img class="advantage__landscape-img" src="img/photo-city@1x-tablet.jpg" alt="пейзаж города." width="512" height="256" />
               </div>
             </div>
           <ul class="advantage__list-inner">
@@ -146,18 +147,18 @@
               </ul>
             </li>
             <li class="advantage__item">
-              <div class="advantage-container-revers">
+              <div class="advantage__container-revers">
                 <div class="advantage__box-left">
-                  <h3 class="advantage-title">Там есть<br>мост дьявола</h3>
-                  <p class="advantage-namber">-№2-</p>
-                  <p class="advantage-discraptions">
+                  <h3 class="advantage__title">Там есть<br>мост дьявола</h3>
+                  <p class="advantage__namber">-№2-</p>
+                  <p class="advantage__discraptions">
                     Да, по нему можно пройти!<br />
                     Если вы осмелитесь,
                     разумеется
                   </p>
                 </div>
-                <div class="adv-box-right">
-                  <img class="advantage__landscape-img" src="images/photo-2.jpg" width="800" height="384" alt="пейзаж каньона.">
+                <div class="advantage__box-right">
+                  <img class="advantage__landscape-img" src="img/photo-bridge@1x-tablet.jpg" width="512" height="256" alt="пейзаж каньона.">
                 </div>
               </div>
             </li>
@@ -200,22 +201,22 @@
               поиск гостиницы в седоне
             </button>
           </div>
-        <img class="booking-search__img-map" src="#" alt="map">
+        <img class="booking-search__img-map" src="img/map-tablet.jpg" alt="map">
         </section>
     <footer class="footer">
-      <div class="footer__box"
+      <div class="footer__box">
            <a class="footer__hashtag" href="#">#visitSEDONA</a>
-    <ul class="footer__list-link">
-      <li class="footer__item">
-        <a class="footer__link" href="#">
-          <svg class="footer__link-svg vk"
-            aria-label="vk"
-            role="img"
-            width="24" height="14" viewBox="0 0 24 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M23.45 0.948C23.616 0.402 23.45 0 22.655 0H20.03C19.362 0 19.054 0.347 18.887 0.73C18.887 0.73 17.552 3.926 15.661 6.002C15.049 6.604 14.771 6.795 14.437 6.795C14.27 6.795 14.019 6.604 14.019 6.057V0.948C14.019 0.292 13.835 0 13.279 0H9.151C8.734 0 8.483 0.304 8.483 0.593C8.483 1.214 9.429 1.358 9.526 3.106V6.904C9.526 7.737 9.373 7.888 9.039 7.888C8.149 7.888 5.984 4.677 4.699 1.003C4.45 0.288 4.198 0 3.527 0H0.9C0.15 0 0 0.347 0 0.73C0 1.412 0.89 4.8 4.145 9.281C6.315 12.341 9.37 14 12.153 14C13.822 14 14.028 13.632 14.028 12.997V10.684C14.028 9.947 14.186 9.8 14.715 9.8C15.105 9.8 15.772 9.992 17.33 11.467C19.11 13.216 19.403 14 20.405 14H23.03C23.78 14 24.156 13.632 23.94 12.904C23.702 12.18 22.852 11.129 21.725 9.882C21.113 9.172 20.195 8.407 19.916 8.024C19.527 7.533 19.638 7.314 19.916 6.877C19.916 6.877 23.116 2.451 23.449 0.948H23.45Z" fill="white"/>
+      <ul class="footer__list-link">
+        <li class="footer__item">
+          <a class="footer__link" href="#">
+            <svg class="footer__link-svg vk"
+              aria-label="vk"
+              role="img"
+              width="24" height="14" viewBox="0 0 24 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M23.45 0.948C23.616 0.402 23.45 0 22.655 0H20.03C19.362 0 19.054 0.347 18.887 0.73C18.887 0.73 17.552 3.926 15.661 6.002C15.049 6.604 14.771 6.795 14.437 6.795C14.27 6.795 14.019 6.604 14.019 6.057V0.948C14.019 0.292 13.835 0 13.279 0H9.151C8.734 0 8.483 0.304 8.483 0.593C8.483 1.214 9.429 1.358 9.526 3.106V6.904C9.526 7.737 9.373 7.888 9.039 7.888C8.149 7.888 5.984 4.677 4.699 1.003C4.45 0.288 4.198 0 3.527 0H0.9C0.15 0 0 0.347 0 0.73C0 1.412 0.89 4.8 4.145 9.281C6.315 12.341 9.37 14 12.153 14C13.822 14 14.028 13.632 14.028 12.997V10.684C14.028 9.947 14.186 9.8 14.715 9.8C15.105 9.8 15.772 9.992 17.33 11.467C19.11 13.216 19.403 14 20.405 14H23.03C23.78 14 24.156 13.632 23.94 12.904C23.702 12.18 22.852 11.129 21.725 9.882C21.113 9.172 20.195 8.407 19.916 8.024C19.527 7.533 19.638 7.314 19.916 6.877C19.916 6.877 23.116 2.451 23.449 0.948H23.45Z" fill="white"/>
             </svg>
-        </a>
-      </li>
+          </a>
+        </li>
       <li class="footer__item">
         <a class="footer__link" href="#">
           <svg class="footer__link-svg telegram"
