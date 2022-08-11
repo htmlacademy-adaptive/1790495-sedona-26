@@ -3,10 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <title>Sedona</title>
-  <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="page__body">
-  <header class="main-header block">
+  <header class="main-header">
     <a class="main-header__logo">
       <img class="main-header__logo-image" src="img/logo.png" width="185" height="96"
            alt="Логотип Sedona.">
@@ -25,14 +24,14 @@
       </button>
       <div class="main-nav__wrapper">
         <ul class="main-nav__list">
-          <li class="main-nav__list-item">
-            <a href="index.html">Главная</a>
+          <li class="main-nav__list-item--active">
+            <a class="main-nav__list-link" href="index.html">Главная</a>
           </li>
           <li class="main-nav__list-item">
-            <a href="catalog.html">ФОТО И ВИДЕО</a>
+            <a class="main-nav__list-link" href="catalog.html">ФОТО И ВИДЕО</a>
           </li>
           <li class="main-nav__list-item">
-            <a href="form.html">Форма отзыва</a>
+            <a class="main-nav__list-link" href="form.html">Форма отзыва</a>
           </li>
           <li class="main-nav__list-item">
             <a href="https://htmlacademy.ru/">HTML ACADEMY</a>
@@ -197,8 +196,8 @@
               Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне
             </p>
             <form class="booking-search__form" method="post" action="https://echo.htmlacademy.ru"></form>
-            <button class="booking-search__button" type="button">
-              поиск гостиницы в седоне
+            <button class="booking-search__button button button--active" type="button">
+              Найти гостиницу
             </button>
           </div>
         <img class="booking-search__img-map" src="img/map-tablet.jpg" alt="map">
