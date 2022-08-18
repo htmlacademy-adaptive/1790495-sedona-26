@@ -12,7 +12,8 @@
     "stylelint": "stylelint .",
     "lint": "npm run editorconfig",
     "build": "echo 'Build task'",
-    "start": "echo 'Start task'"
+    "start": "echo 'Start task'",
+    "test": "npm run editorconfig && npm run stylelint"
   },
   "editorconfig-cli": [
     "*.json",
